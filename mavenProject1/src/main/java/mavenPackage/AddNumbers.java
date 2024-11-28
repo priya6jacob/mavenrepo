@@ -4,11 +4,11 @@ package mavenPackage;
 
 public class AddNumbers 
 {
-	public void add()
-	{
 	int a=5;
 	int b=10;
 	int c=a+b;	
+	public void add()
+	{
 	System.out.println(c);
 	}
 	
