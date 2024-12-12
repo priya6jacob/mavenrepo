@@ -7,10 +7,24 @@ public class ExceptionExp1
 	{
 		int a=10;
 		int b=0;
-		//System.out.println("Hello");
+		
+		try
+		{
 		int c=a/b;
-		System.out.println("Hello");
+		
 		System.out.println(c);
+		}
+		/*catch(ArithmeticException as)
+		{
+			int c=a+b;
+			System.out.println(c);
+		}*/
+		
+		finally
+		{
+			System.out.println("Execution completed successfully");
+		}
+		
 
 	}
 
