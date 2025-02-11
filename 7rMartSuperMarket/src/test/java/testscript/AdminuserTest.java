@@ -57,9 +57,12 @@ public class AdminuserTest extends Base {
 	@Test
 
 	public void verifyadminuserissearchable() throws IOException {
+		String username1 = ExcelUtility.getStringData(4, 0, "LoginPage");
+		String password1 = ExcelUtility.getStringData(4, 1, "LoginPage");
 		String username = ExcelUtility.getStringData(1, 0, "AdminUserSearchPage");
+		String usertype = ExcelUtility.getStringData(1, 1, "AdminUserSearchPage");
 		LoginPage loginpage = new LoginPage(driver);
-		loginpage.enterusernameandpassword("admin", "admin");
+		loginpage.enterusernameandpassword(username1, password1);
 		home = loginpage.clicksigninbutton();
 		adminpage = home.clickadminuser();
 		adminpage.searchadminuser();

@@ -17,10 +17,12 @@ public class CategoryTest extends Base {
 
 	@Test
 	public void verifycategoryisadded() throws IOException {
+		String username = ExcelUtility.getStringData(4, 0, "LoginPage");
+		String password = ExcelUtility.getStringData(4, 1, "LoginPage");
 		String category = ExcelUtility.getStringData(1, 0, "CategoryAddPage");
 		LoginPage loginpage = new LoginPage(driver);
 		
-		loginpage.enterusernameandpassword("admin","admin");
+		loginpage.enterusernameandpassword(username,password);
 		home = loginpage.clicksigninbutton();
 		categorypage = home.clickcategory();
 		categorypage.clicknewbutton();
@@ -39,9 +41,11 @@ public class CategoryTest extends Base {
 	@Test
 
 	public void verifycategoryissearchable() throws IOException {
+		String username = ExcelUtility.getStringData(4, 0, "LoginPage");
+		String password = ExcelUtility.getStringData(4, 1, "LoginPage");
 		String category = ExcelUtility.getStringData(1, 0, "CategorySearchPage");
 		LoginPage loginpage = new LoginPage(driver);
-		loginpage.enterusernameandpassword("admin", "admin");
+		loginpage.enterusernameandpassword(username,password);
 		home = loginpage.clicksigninbutton();
 		categorypage = home.clickcategory();
 		categorypage.clicksearchbutton();
