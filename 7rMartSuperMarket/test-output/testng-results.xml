@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-02-10T14:58:26 IST" name="Suite" finished-at="2025-02-10T14:58:45 IST" duration-ms="19088">
+    <groups>
+      <group name="smoke">
+        <method signature="LoginTest.verifyuserisabletologinwithinvalidusernameandinvalidpassword()[pri:0, instance:testscript.LoginTest@29f7cefd]" name="verifyuserisabletologinwithinvalidusernameandinvalidpassword" class="testscript.LoginTest"/>
+        <method signature="LoginTest.verifyuserisabletologinwithinvalidusernameandvalidpassword()[pri:0, instance:testscript.LoginTest@29f7cefd]" name="verifyuserisabletologinwithinvalidusernameandvalidpassword" class="testscript.LoginTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2025-02-10T14:58:26 IST" name="grouping" finished-at="2025-02-10T14:58:45 IST" duration-ms="19088">
+      <class name="testscript.LoginTest">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testscript.LoginTest@29f7cefd]" started-at="2025-02-10T14:58:26 IST" name="beforeMethod" finished-at="2025-02-10T14:58:33 IST" duration-ms="6825" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyuserisabletologinwithinvalidusernameandinvalidpassword()[pri:0, instance:testscript.LoginTest@29f7cefd]" started-at="2025-02-10T14:58:33 IST" name="verifyuserisabletologinwithinvalidusernameandinvalidpassword" finished-at="2025-02-10T14:58:37 IST" duration-ms="4446" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyuserisabletologinwithinvalidusernameandinvalidpassword -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testscript.LoginTest@29f7cefd]" started-at="2025-02-10T14:58:37 IST" name="beforeMethod" finished-at="2025-02-10T14:58:43 IST" duration-ms="5735" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyuserisabletologinwithinvalidusernameandvalidpassword()[pri:0, instance:testscript.LoginTest@29f7cefd]" started-at="2025-02-10T14:58:43 IST" name="verifyuserisabletologinwithinvalidusernameandvalidpassword" finished-at="2025-02-10T14:58:45 IST" duration-ms="1975" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyuserisabletologinwithinvalidusernameandvalidpassword -->
+      </class> <!-- testscript.LoginTest -->
+    </test> <!-- grouping -->
+  </suite> <!-- Suite -->
+</testng-results>
