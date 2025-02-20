@@ -54,7 +54,7 @@ public class AdminuserTest extends Base {
 
 	}
 
-	@Test(priority = 1, retryAnalyzer = retry.Retry.class)
+	@Test
 
 	public void verifyadminuserissearchable() throws IOException {
 		String username1 = ExcelUtility.getStringData(4, 0, "LoginPage");

@@ -5,13 +5,14 @@
 		<listener class-name="generatereport.Listeners"></listener>
 	</listeners>
 	<parameter name="username" value="admin">
-		</parameter>
-		<parameter name="password" value="admin"></parameter>
+	</parameter>
+	<parameter name="password" value="admin"></parameter>
 	<test name="chrometest">
 		<parameter name="browzer" value="chrome">
 		</parameter>
 		<classes>
-			<class name="testscript.AdminuserTest">
+
+			<class name="testscript.CategoryTest">
 			</class>
 		</classes>
 	</test>

@@ -68,10 +68,7 @@ public class SubCategoryPage {
 	}
 
 	public SubCategoryPage clicksavebutton() {
-		JavascriptExecutor javascript = (JavascriptExecutor) driver;
-		javascript.executeScript("window.scrollBy(0,4000)");
-
-		javascript.executeScript("arguments[0].click();", savebutton);
+		pageutility.javaScriptExecutorMethod(savebutton);
 		savebutton.click();
 		return this;
 	}
